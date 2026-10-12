@@ -1,0 +1,24 @@
+# Configuración local de Android
+local.properties
+
+# Configuración de Firebase
+**/google-services.json
+
+# Claves privadas y firma de aplicaciones
+*.jks
+*.keystore
+key.properties
+*.pem
+*.p12
+
+# Archivos generados
+.gradle/
+**/build/
+
+# Configuración local del IDE
+.idea/
+*.iml
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
